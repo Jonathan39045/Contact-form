@@ -19,33 +19,33 @@
   <div class="first">
     <div class="inside_first">
     <p>First Name</p>
-    <input type="text" required>
-    <p class="required_field">This field is required</p>
+    <input type="text" id="first_name" required>
+    <p class="required_field" id="first-field">This field is required</p>
     </div>
     
     <div class="inside_first">
       <p>Last Name</p>
-      <input type="text" required>
-      <p class="required_field">This field is required</p>
+      <input type="text" id="second_name" required>
+      <p class="required_field" id="second-field">This field is required</p>
   </div>
   </div>
  
   <div class="second">
     <p>Email Address</p><br>
-    <input type="email" required>
-    <p class="required_field">Please enter a valid email address</p>
+    <input type="email" id="email" required>
+    <p class="required_field" id="email-field">Please enter a valid email address</p>
   </div>
 
   <p>Query Type</p>
   <div class="third">
       <p class="box">
-        <input type="radio">General Enquiry
+        <input type="radio" id="general_enquiry" name="type">General Enquiry
       </p>
       <p class="box">
-        <input type="radio"> Support Request
+        <input type="radio" id="support_request" name="type"> Support Request
       </p>
   </div>
-  <p class="required_field">Please select a query type</p>
+  <p class="required_field" id="third_general_support">Please select a query type</p>
 
   <div class="fourth">
     <p>Message</p>
@@ -75,5 +75,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Ajith177" target="_blank">Ajith ganapathy</a>.
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
