@@ -19,24 +19,24 @@
   <div class="first">
     <div class="inside_first">
     <p>First Name</p>
-    <input type="text" id="first_name" required>
+    <input type="text" id="first_name" class="first_name" class="name_first"  required>
     <p class="required_field" id="first-field">This field is required</p>
     </div>
     
     <div class="inside_first">
       <p>Last Name</p>
-      <input type="text" id="second_name" required>
+      <input type="text" id="second_name" class="second_name" class="name_second" required>
       <p class="required_field" id="second-field">This field is required</p>
   </div>
   </div>
  
   <div class="second">
     <p>Email Address</p><br>
-    <input type="email" id="email" required>
+    <input type="email" id="email" class="email_name" class="name_email" required>
     <p class="required_field" id="email-field">Please enter a valid email address</p>
   </div>
 
-  <p>Query Type</p>
+  <p class="q">Query Type</p>
   <div class="third">
       <p class="box">
         <input type="radio" id="general_enquiry" name="type">General Enquiry
@@ -49,13 +49,13 @@
 
   <div class="fourth">
     <p>Message</p>
-    <p class="boxing"></p>
-  <p class="required_field">This field is required</p>
+    <input type="text" class="boxing" id="boxing" class="name_boxing">
+  <p class="required_field" id="message_required">This field is required</p>
   </div>
   
   <div class="five">
-  <input type="checkbox" required> I consent to being contacted by the team
-  <!-- <p>To submit this form, please consent to being contacted</p> -->
+  <input type="checkbox" id="checking" required> I consent to being contacted by the team
+  <p class="required_field" id="submit_required">To submit this form, please consent to being contacted</p>
   </div>
 
   <div class="six">
@@ -67,7 +67,6 @@
   <p>Thanks for completing the form. We'll be in touch soon!</p>
   </div>
 
-  
 </div>
   
   
